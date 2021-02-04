@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Calculez votre imc</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="./assets/stylesheets/index.css" />
+</head>
+<h1>Calculer votre imc</h1>
+<br>
+<body class="centrer txt-roboto">
+    <form>
+        <table border="1">
+
+            <!-- Infos utilisateur -->
+            
+            <tr>
+                <td>Taille (m)</td>
+                <td><input type="text" id="txtTaille" placeholder="Votre taille" required /></td>
+            </tr>
+
+            <tr>
+                <td>Poids (kg)</td>
+                <td><input type="text" id="txtPoids" placeholder="Votre poids" required /></td>
+            </tr>
+
+            <!-- Calculer et afficher l'IMC -->
+            <tr>
+                <td colspan="2" align="center"><input type="button" id="cmdCalculer" onclick="Traitement()"
+                        value="Calculer IMC"></td>
+            </tr>
+
+            <tr>
+                <td>Votre IMC</td>
+                <td><input type="text" id="txtIMC" /></td>
+            </tr>
+           
+        </table>
+    </form>
+
+    <script src="./source.js">
+    </script>
+</body>
+
+</html>
