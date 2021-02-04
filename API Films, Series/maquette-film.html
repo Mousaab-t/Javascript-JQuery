@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Film</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+</head>
+<body>
+<div class="container-fluid">
+	<br><br>
+	<div class="row">
+		
+		<div class="col-6 offset-3">
+				<form onsubmit="return cherche()"  action="page.php">
+				<div class="row">
+					<div class="col-2"><h3>Serie</h3></div>
+					<div class="col-6"><input class="form-control" id="search" /></div>
+					<div class="col-3">
+						<button onclick="" type="submit" class="btn btn-primary">
+						Recherche
+						</button>
+					</div>
+				</div>
+				</form>		
+					<br><br>		
+			<table class="table" id="tabFilm">
+				<thead>
+					<tr>
+						<th >
+							Nom
+						</th>
+						<th >
+							Image
+						</th>
+						<th style="width:300px">
+							url
+						</th>
+						
+					</tr>
+				</thead>
+				<tbody>
+					
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+<script>
+function cherche(){
+}
+</script>
+</body>
+</html>
